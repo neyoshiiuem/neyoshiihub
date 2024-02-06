@@ -1,14 +1,8 @@
 if game.PlaceId == 2753915549 then
     World1 = true
-    World2 = false
-    World3 = false
 elseif game.PlaceId == 4442272183 then
-    World1 = false
     World2 = true
-    World3 = false
 elseif game.PlaceId == 7449423635 then
-    World1 = false
-    World2 = false
     World3 = true
 else
     KickPlayer("Do not Support, Please wait...")
@@ -2555,7 +2549,7 @@ local Window = OrionLib:MakeWindow({Name = "NeyoshiiHub", HidePremium = false, I
 OrionLib:MakeNotification({
     Name = "NeyoshiiHub",
     Content = "Please Wait loading script...,Do not enable any function",
-    Image = "rbxassetid://8192162908",
+    Image = "rbxassetid://8192162908",z
     Time = 5
 })
 wait(3)
