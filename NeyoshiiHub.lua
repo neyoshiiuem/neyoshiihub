@@ -2547,7 +2547,7 @@ spawn(function()
     wait(.36)
 end)
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/neyoshiiuem/neyoshiihub/main/NeyoshiiHub.lua')))()
 local Window = OrionLib:MakeWindow({Name = "NeyoshiiHub", HidePremium = false, IntroText = "NeyoshiiHub⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
 
 
