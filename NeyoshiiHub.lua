@@ -306,7 +306,7 @@ mainopens.Parent = mainopen
  Logo.BackgroundTransparency = 1.000
  Logo.Position = UDim2.new(-0.01, 0,-0.319, 0)
  Logo.Size = UDim2.new(0, 55,0, 45)
- Logo.Image = "rbxassetid://"..tostring(logo)
+ Logo.Image = "rbxassetid://16266479120"..tostring(logo)
  
  local Name = Instance.new("TextLabel")
  Name.Name = "Name"
